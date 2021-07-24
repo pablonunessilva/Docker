@@ -43,3 +43,17 @@
 - Inicia um container
 ### Docker stop(id do container)
 - Para um container
+
+### docker images
+- listas as imagens
+### docker search 
+- procura uma imagem
+### docker pull 
+- baixa essa imagem
+### docker commit
+- Para commitar uma alteração no container
+
+## Comandos úteis
+### docker rm $(docker ps -qa)
+### docker rmi $(docker images -q)
+
